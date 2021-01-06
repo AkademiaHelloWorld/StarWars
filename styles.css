@@ -1,0 +1,147 @@
+/*początkowe ustawienia*/
+body {
+    background-color: black;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*resetujemy ustawienia przegladarki*/
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*zeby logo bylo nad menu*/
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.menuLink {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    cursor: url(miecz.svg), move;
+}
+
+.menuLink:hover {
+    color: white;
+}
+
+main {
+    background-image: url("tlo.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#baner {
+    width: 100%;
+}
+
+#kontener {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#listaFilmow {
+    list-style: none;
+}
+
+.film {
+    margin-top: 20px;
+}
+
+.karta {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: #272727;
+}
+
+.kolumna {
+    width: 50%;
+}
+
+.tekstKolumny {
+    padding: 15px;
+    color: lightgray;
+}
+
+.tekstKolumny:hover {
+    color: #e3e24f;
+}
+
+#awatarKontener {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.awatar {
+    padding: 20px;
+    margin: 20px;
+    border: 1px dotted white;
+}
+
+.awatarZdjecie {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.awatarPodpis {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+video {
+    border: 10px solid white;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid white;
+    font-size: 22px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
